@@ -43,7 +43,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 9%;
+    padding: 15px 40px;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
@@ -83,6 +83,7 @@ header {
     color: var(--main-color);
     cursor: pointer;
     display: none;
+   
    
 }
 
@@ -724,8 +725,20 @@ span {
 /* Responsive menu toggle */
 @media (max-width: 786px) {
     #menu-icon {
-        display:block;
-        padding-right: 20px;
+        display: block;
+        margin-left: 12px;
+       order: 2;
+        
+    }
+
+    .top-btn{
+       order: 1;
+       margin-right: 10px;
+
+ 
+    }
+    .nav-btn{
+        padding: 1rem 2.8rem;
     }
 
     .navbar {
